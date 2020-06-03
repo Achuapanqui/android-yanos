@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Origen</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</head>
+<body style=background-color:#E0E0E0>
+
+  <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">Inicio</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Historia
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="origen.html">Origen</a>
+          <a class="dropdown-item" href="versiones.html">Versiones</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="caracteristicas.html">Características</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="arquitectura.html">Arquitectura</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="dispositivos.html">Dispositivos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aplicaciones.html">Aplicaciones</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="seguridad.html">Seguridad</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ventajas.html">Ventajas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="desventajas.html">Desventajas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="bibliografia.html">Bibliografia</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="quiz.html">Quiz</a>
+      </li>
+    </ul>
+</nav>
+
+<h1 style="text-align:center;">Seguridad en Android</h1>
+
+<div class="container p-3 my-3 bg-dark text-white">
+    <h3>En los dispositivos móviles la seguridad juega un papel importante, la descarga de aplicaciones maliciosas pueden actuar de forma que lean la lista de contactos, averiguar la posición GPS, mandar toda esta información por Internet y terminar enviando mensajes SMS.</h3>
+</div>
+
+<h2 style="margin-left: 2.5%">La seguridad en Android se fundamenta en los siguientes tres pilares:</h2>
+
+<div class="row " style="margin-left: 2.5%" >
+    <div class="col-sm-3">
+        <div class="container p-3 my-3" style="background-color: #5D5D5D; color:white; border:5px solid #B9B9B9;"><h4>Android impide que aplicaciones tengan acceso directo al hardware o interfieran con recursos de otras aplicaciones
+        </h4>
+        </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="container p-3 my-3"  style="background-color: #5D5D5D; color:white; border:5px solid #B9B9B9;"><h4>Toda aplicación ha de ser firmada con un certificado digital que identifique a su autor. La firma digital también nos garantiza que el fichero de la aplicación no ha sido modificado.
+        </h4>
+        </div>
+    </div>
+
+    
+<div class="col-sm-3">
+    <div class="container pt-3 my-3"  style="background-color: #5D5D5D; color:white; border:5px solid #B9B9B9;"><h4>Si se desea modificar la aplicación esta tendrá que ser firmada de nuevo, y esto solo podrá hacerlo el propietario de la clave privada. No es preciso (ni frecuente) que el certificado digital sea firmado por una autoridad de certificación.
+    </h4>
+    </div>
+    </div>
+</div>
+
+<h2 style="text-align: center">Esquema de Permisos de Android</h2>
+<div class="container p-3 my-3 bg-dark text-white">
+    <h3>Para proteger ciertos recursos y características especiales del hardware, Android define un esquema de permisos. Toda aplicación que acceda a estos recursos está obligada a delcarar su intención de usarlos. En caso de que una aplicación intente acceder a un recurso del que no ha solicitado permiso, se generara una excepción de permiso y la aplicación será interrumpida inmediatamente. Cuando el usuario instala una aplicación, este podrá examinar la lista de permisos que solicita la aplicación y decidir si considera oportuno instalar dicha aplicación.</h3>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quiz</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/reset.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../css/demo.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../css/simplemodal.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script src="../js/mootools-core-1.3.1.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/mootools-more-1.3.1.1.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/simple-modal.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/demo.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/funciones.js" type="text/javascript" charset="utf-8"></script>
+
+  <style type="text/css">
+    .Cuadrado {
+      width: 25px;
+      height: 25px;
+      border: 1px solid #555;
+      }
+  </style>
+   <link rel="shortcut icon" type="image/png" href="http://simplemodal.plasm.it/apple-touch-icon.png" />
+</head>
+<body>
+        <!-- Links -->
+        <ul style="font-size: 5mm; background-color: #28a745; line-height: 30px;">
+          <li class="nav-item">
+            <a class="nav-link" style="color:rgba(255,255,255,.75)" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" style="color:rgba(255,255,255,.75)" href="origen.html">Origen</a>
+              <a class="nav-link" style="color:rgba(255,255,255,.75)" href="versiones.html">Versiones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:rgba(255,255,255,.75)" href="caracteristicas.html">Características</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:rgba(255,255,255,.75)" href="arquitectura.html">Arquitectura</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:rgba(255,255,255,.75)" href="dispositivos.html">Dispositivos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:rgba(255,255,255,.75)" href="aplicaciones.html">Aplicaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:rgba(255,255,255,.75)" href="seguridad.html">Seguridad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:rgba(255,255,255,.75)" href="ventajas.html">Ventajas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:rgba(255,255,255,.75)" href="desventajas.html">Desventajas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:rgba(255,255,255,.75)" href="bibliografia.html">Bibliografia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:rgba(255,255,255,.75)" href="quiz.html">Quiz</a>
+          </li>
+        </ul>
+<br>
+
+<p style="font-size: 2.5rem; margin-left: 0.5cm;">Quiz</p>
+<br>
+
+<form name="android" style="margin-left:0.3cm">
+<div id="1" style="background-color: white;">
+       <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta1">Pregunta 1</a></b></button>
+       <input id="p1" type="text" name="txt1" value="*Inserte Respuesta*">
+        <br>
+</div>
+<br>
+<div id="2" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta2">Pregunta 2</a></b></button>
+     <br> <input type="radio"   name="androids" value="A">Un Navegador Web para dispositivos móviles
+     <br> <input type="radio"   name="androids" value="B">Un Programa de PC
+     <br> <input type="radio"   name="androids" value="C">Un sistema operativo móvil
+     <br> <input type="radio"   name="androids" value="D">Un sistema de seguridad para PCs
+   <br>
+</div>
+<br>
+<div id="3" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta3">Pregunta 3</a></b></button>
+  <br> <input type="radio"   name="logo" value="A">SI
+  <br> <input type="radio"   name="logo" value="B">NO
+   <br>
+</div>
+<br>
+<div id="4" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta4">Pregunta 4</a></b></button>
+  <br> <input type="radio"   name="abierto" value="A">FALSO
+  <br> <input type="radio"   name="abierto" value="B">VERDADERO
+   <br>
+</div>
+<br>
+<div id="5" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta5">Pregunta 5</a></b></button>
+  <input id="p5" type="text" name="txt5" value="*Inserte Respuesta*">
+   <br>
+</div>
+<br>
+<div id="6" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta6">Pregunta 6</a></b></button>
+  <input id="p6" type="text" name="txt6" value="*Inserte Respuesta*">
+   <br>
+</div>
+<br>
+<div id="7" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta7">Pregunta 7</a></b></button>
+  <br> <input type="radio"   name="multi" value="A">SI
+  <br> <input type="radio"   name="multi" value="B">NO
+   <br>
+</div>
+<br>
+<div id="8" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta8">Pregunta 8</a></b></button>
+  <input id="p8" type="text" name="txt8" value="*Inserte Respuesta*">
+   <br>
+</div>
+<br>
+<div id="9" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta9">Pregunta 9</a></b></button>
+  <br> <input type="radio"   name="dispositivos" value="A">Teléfonos Inteligentes
+  <br> <input type="radio"   name="dispositivos" value="B">Consolas de Videojuegos
+  <br> <input type="radio"   name="dispositivos" value="C">Televisores
+  <br> <input type="radio"   name="dispositivos" value="D">Relojes
+   <br>
+</div>
+<br>
+<div id="10" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta10">Pregunta 10</a></b></button>
+  <br> <input type="radio"   name="multimedia" value="A">SI
+  <br> <input type="radio"   name="multimedia" value="B">NO
+   <br>
+</div>
+<br>
+<div id="11" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta11">Pregunta 11</a></b></button>
+  <input id="p11" type="text" name="txt11" value="*Inserte Respuesta*">
+   <br>
+</div>
+<br>
+<div id="12" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta12">Pregunta 12</a></b></button>
+  <br> <input type="radio"   name="arquitecturas" value="A">Aplicaciones
+  <br> <input type="radio"   name="arquitecturas" value="B">Bibliotecas
+  <br> <input type="radio"   name="arquitecturas" value="C">Núcleo Linux
+  <br> <input type="radio"   name="arquitecturas" value="D">Almacenamiento
+   <br>
+</div>
+<br>
+<div id="13" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta13">Pregunta 13</a></b></button>
+  <input id="p13" type="text" name="txt13" value="*Inserte Respuesta*">
+   <br>
+</div>
+<br>
+<div id="14" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta14">Pregunta 14</a></b></button>
+  <br> <input type="radio"   name="ventajas" value="A">VERDADERO
+  <br> <input type="radio"   name="ventajas" value="B">FALSO
+   <br>
+</div>
+<br>
+<div id="15" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta15">Pregunta 15</a></b></button>
+  <br> <input type="radio"   name="origen" value="A">VERDADERO
+  <br> <input type="radio"   name="origen" value="B">FALSO
+   <br>
+</div>
+<br>
+<div id="16" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta16">Pregunta 16</a></b></button>
+  <input id="p16" type="text" name="txt16" value="*Inserte Respuesta*">
+   <br>
+</div>
+<br>
+<div id="17" style="background-color: white;">
+  <button disabled style="width: 100px; height: 40px; background-color: rgba(0, 38, 255, 0.788);"><b><a style="color:white;" id="pregunta17">Pregunta 17</a></b></button>
+  <input id="p17" type="text" name="txt17" value="*Inserte Respuesta*">
+   <br>
+</div>
+<br>
+<br>
+<button disabled style="width: 100px; height: 30px; background-color: rgb(6, 182, 0); margin-left: 2.5%;"><b><a style="color:white;" id="calificar">Calificar</a></b></button>
+<br>
+<br>
+</form>
+<p id="correctos" style="color:green; font-size: 5mm; margin-left: 0.1cm;"></p>
+<p id="incorrectos" style="color:red; font-size: 5mm; margin-left: 0.1cm;"></p>
+<br>
+<p id="aciertos" style="color:green; font-size: 5mm; margin-left: 0.1cm;"></p>
+<p id="errores" style="color:red; font-size: 5mm; margin-left: 0.1cm;"></p>
+<br>
+<p style="font-size: 3mm; margin-left: 0.1cm;" id="nota"></p>
+</body>
+</html>
